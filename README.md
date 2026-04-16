@@ -1,6 +1,6 @@
 > AGENTS.md中的第38行（python运行的Conda环境要求）是我的个人需要，使用者请自行替换或删除。
 
-我最近试用了oh-my-codex作为多智能体工作流。
+我最近试用了 [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) 作为多智能体工作流。
 
 之后额度马上到了原来的3-4x，完全不够烧了——
 
