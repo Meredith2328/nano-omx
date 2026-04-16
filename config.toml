@@ -1,0 +1,25 @@
+# Minimal nano-omx template.
+# Replace local paths to match your machine before use.
+
+model = "gpt-5.4"
+model_provider = "openai"
+model_reasoning_effort = "medium"
+approval_policy = "never"
+sandbox_mode = "workspace-write"
+
+[features]
+multi_agent = true
+child_agents_md = true
+rmcp_client = true
+
+[mcp_servers.omx_state]
+command = "node"
+args = ["C:\\Users\\10pi\\AppData\\Local\\nvm\\v25.8.1\\node_modules\\oh-my-codex\\dist\\mcp\\state-server.js"]
+enabled = true
+startup_timeout_sec = 5
+
+[mcp_servers.omx_code_intel]
+command = "node"
+args = ["C:\\Users\\10pi\\AppData\\Local\\nvm\\v25.8.1\\node_modules\\oh-my-codex\\dist\\mcp\\code-intel-server.js"]
+enabled = true
+startup_timeout_sec = 10
